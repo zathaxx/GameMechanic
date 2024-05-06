@@ -1,0 +1,8 @@
+**/.vscode/
+**/Library/
+**/Logs/
+**/Temp/
+**/UserSettings/
+*.sln
+CSS385_Local/
+**/Assembly-CSharp.csproj
