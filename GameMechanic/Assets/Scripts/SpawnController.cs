@@ -1,14 +1,3 @@
-# Spawn Entities from Spawnpoint With Custom Parameters 2D
-
-## Description
-
-This mechanic shows how to spawn prefabs of any type from the location of the corresponding game object, creating a spawnpoint. Each spawnpoint has custom parameters, such as the prefab that should be spawned, the target it will follow, the speed of each entity, the limit on how many entities can spawn, and the minimum range between the spawnpoint and the target in which entities will be allowed to spawn. This could be useful when developing a platformer or any other PvE game where enemies follow the player and prefer to have enemies always spawn in the same locations.
-
-## Implementation
-
-Create a new GameObject in the Unity Editor and attach the SpawnController script to it. Assign both the Entity and Target to prefabs and change all other custom parameters to a value greater than zero. It may be useful to attach a Sprite Renderer to the GameObject so that the spawnpoint can be easily seen during testing.
-
-```cs
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -65,5 +54,3 @@ public class SpawnController : MonoBehaviour
 
 
 }
-```
-
